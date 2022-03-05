@@ -1,0 +1,613 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: "Heavitas"; */
+    background-color: rgb(216, 214, 214);
+    line-height: 1.50;
+    /* padding-bottom: 1000px; */
+}
+
+ /* Container 1 */
+
+.container1 {
+    max-width: 1600px;
+    margin: 50px auto;
+    /* background-color: rgb(201, 201, 201); */
+    font-family: "Antipasto Pro ExtraBold";
+    font-size: 35px;
+    color: rgb(71, 71, 71);
+}
+
+/* Akhir C1 */
+
+/* Container 2 */
+.container2 {
+    width: 1600px;
+    margin: 50px auto;
+    margin-top: -95px;
+    margin-bottom: 50px;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: flex-start;
+}
+
+.profesi {
+    width: 50%;
+    font-family: "Antipasto Pro ExtraBold";
+    font-size: 40px;
+    /* background-color: blue; */
+    padding-top: 10px;
+    margin-top: -40px;
+    color: rgb(71, 71, 71);
+}
+
+.menu1 {
+    width: 300px;
+    height: 105px;
+    /* background-color: blueviolet; */
+    margin-top: 5px;
+    padding-left: 150px;
+    font-family: "Antipasto Pro";
+ 
+}
+
+
+.menu2 {
+    width: 100px;
+    height: 105px;
+    /* background-color: blueviolet; */
+    margin-top: 5px;
+    padding-left: 150px;
+    font-family: "Antipasto Pro";
+}
+
+/* Link */
+a { 
+    color: rgb(71, 71, 71);
+    /* font-size: 30px; */
+    text-decoration: none;
+}
+
+/* a:hover{
+    color: rgb(71, 71, 71);
+    background-color: rgb(22, 155, 155);
+    rgb(22, 155, 155);
+} */
+
+a.about {
+    color: rgb(22, 155, 155);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+a.about:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 155, 155);
+}
+
+a.contact {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 35px;
+    /* border: 2px solid; */
+    /* border-color: black; */
+}
+
+a.contact:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+}
+
+a.pro{
+    /* color: rgb(156, 3, 54); */
+    font-family: "Moutarde DEMO";
+    font-size: 50px;
+    padding: 10px;
+    /* border: 2px solid; */
+	margin: 0 auto;
+    border-radius: 50px;
+
+}
+
+a.pro:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+    
+}
+
+a.skl {
+    /* color: rgb(0, 211, 248); */
+    font-family: "Moutarde DEMO";
+    font-size: 50px;
+    padding: 10px;
+    /* border: 2px solid; */
+	margin: 0 auto;
+    border-radius: 50px;
+}
+
+a.skl:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+    
+}
+
+a.org {
+    /* color: rgb(0, 0, 0); */
+    font-family: "Moutarde DEMO";
+    font-size: 50px;
+    padding: 10px;
+    /* border: 2px solid; */
+	margin: 0 auto;
+    border-radius: 50px;
+}
+
+a.org:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+    
+}
+
+/* Akhir C2 */
+
+/* Container 3 - Foto Utama */
+
+.container3 {
+    width: 1600px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+.foto1 {
+    border-radius: 50%;
+    width: 500px;
+    margin: auto;
+    /* align-items: center; */
+    /* line-height: 100px; */
+    /* padding-top: 20px; */
+}
+
+/* Akhir C3 */
+
+/* Sisipan */
+.add {
+    padding-top: 10px;
+}
+/* Akhir Sisipan */
+
+/* Container 4 */
+
+.container4 {
+    max-width: 1600px;
+    height: 600px;
+    margin: 50px auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+.foto2 {
+    width: 600px;
+    border-radius: 50%;
+    /* border-style: hidden ; */
+}
+
+.full.desc *{
+    /* background-color: aquamarine; */
+    width: 1000px;
+    margin: 0;
+    margin-left: 20px;
+    /* padding: 0; */
+    line-height: 2;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* justify-content: flex-start; */
+
+    padding-top: -10px;
+
+}
+
+.salam {
+    /* background: blue; */
+    font-family: "Moutarde DEMO";
+    font-size: 150px;
+    color:  rgb(71, 71, 71);
+    /* margin: 0px auto; */
+    /* margin-left: 50px; */
+    /* width: 1600px; */
+    /* margin-bottom: -10px; */
+    /* margin-top: -100px; */
+    padding-top: -10px;
+    /* border: 2px solid; */
+    /* border-color: black; */
+    transform: translateY(-99px);
+    /* display: flex;
+    align-items: flex-start; */
+}
+
+.desc1 {
+    /* background-color: lightblue; */
+    font-family: "Antipasto Pro";
+    font-size: 100px;
+    color:  rgb(71, 71, 71);
+    /* margin: 50px auto; */
+    width: 670px;
+    /* height: 50px; */
+    transform: translateY(-200px);
+    /* padding-top: -10px; */
+    /* padding-bottom: 100px; */
+}
+
+/*
+.bout{
+
+}
+*/
+.desc2 {
+    /* background-color: red; */
+    font-size: 23px;
+    font-family: "ClementePDae";
+    width: 750px;
+    /* height: 300px; */
+    transform: translateY(-250px);
+    letter-spacing: 2px;
+}
+
+.aku {
+    line-height: 200%;
+    /* letter-spacing: 10px; */
+}
+
+.desc3 {
+    /* background-color: brown; */
+    font-size: 23px;
+    font-family: "ClementePDae";
+    font-weight: 100;
+    width: 500px;
+    transform: translateY(-250px);
+    letter-spacing: 1.5px;
+}
+
+.more {
+    width: 1600px;
+    /* padding-top: 100px; */
+    transform: translateY(-250px);
+    display: flex;
+    /* float: left; */
+    /* overflow: hidden; */
+    /* margin-left: 50px; */
+    /* justify-content: flex-start; */
+}
+/* 
+.more1 {
+    /* letter-spacing: 1.5px;
+    background-color: green;
+    margin-left: 0 !important; 
+    float: left; 
+} */
+
+.mg-kiri{
+    margin-left: 10px !important;
+}
+
+.more2 {
+    margin-left: 0px !important;
+    /* background-color: lightgreen; */
+    letter-spacing: 1.5px;
+    /* border: 1px solid;
+    text-decoration: none;
+    border-radius: 35%;
+    color: blue; */
+}
+
+.more3 {
+    margin-left: 0px !important;
+    /* background-color: blueviolet; */
+}
+
+/* Container 5 */
+
+.container5 {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1600px;
+    height: 900px;
+    margin: auto;
+    /* padding-top: 5px; */
+    transform: translateY(-50px);
+}
+
+/* #container5 *{
+    margin: 10px;
+    padding: 10px;
+} */
+
+       /* Tabel Profesi */
+
+.tabel.pro{
+    width: 1600px;
+    background-color:rgb(71, 71, 71);
+    color: rgb(216, 214, 214);
+    border-radius: 45px;
+    transform: translateY(-65px);
+}
+
+.tabel.pro *{
+    font-size: 45px;
+    font-family: "Coolvetica";
+    /* padding: 6px; */
+    margin-left: 30px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    /* margin: 10px; */
+}
+
+table, td {
+    /* border: 1px solid; */
+    /* border-collapse: collapse; */
+    /* text-align: start; */
+    margin: 10px;
+}
+.tabel.pro *{
+    border-style: none;
+}
+.pro-data {
+    width: 80%;
+}
+
+.titik {
+    width: 2%;
+}
+
+.header.pro {
+    font-family: "Moutarde DEMO";
+    /* rgb(216, 214, 214); */
+    background-color:rgb(71, 71, 71);
+    color: rgb(216, 214, 214);
+    padding: 10px;
+    font-size: 90px;
+    border-radius: 100px;
+    max-width: 900px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 5px;
+    transform: translateY(-30px);
+}
+
+/* Akhir Container 5 */
+
+/* Container 6 */
+.container6 {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1600px;
+    height: 900px;
+    margin: auto;
+    /* padding-top: 25px; */
+    /* transform: translateY(-50px); */
+}
+
+.header.skl {
+    font-family: "Moutarde DEMO";
+    /* rgb(216, 214, 214); */
+    background-color:rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 90px;
+    border-radius: 100px;
+    max-width: 900px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 8px;
+    transform: translateY(20px);
+}
+
+.sub.cont6 {
+    /* background-color: rgb(255, 255, 255); */
+    width: 1600px;
+    transform: translateY(40px);
+    border-radius: 50px;
+}
+
+.tabel.skl *{
+
+    /* background-color: bisque; */
+    margin: 5px;
+    /* padding: 10px; */
+    /* border: 1px solid; */
+
+}
+
+.tabel.skl *{
+    font-family: "Coolvetica";
+    font-size: 35px;
+    color: rgb(71, 71, 71);
+}
+ 
+.soft.skl {
+    width: 15%;
+}
+
+.sub.teks {
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.skl-data{
+    width: 120%;
+}
+
+.titik2 {
+    width: 0%;
+}
+
+.hard.skl {
+    width: 20%;
+    text-align: center;
+
+    /* margin-left: 5px; */
+}
+
+.space.tabel1 {
+    width: 5%;
+}
+
+/* Akhir Container 6 */
+
+/* Container 7 */
+
+.container7 {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 1600px;
+    height: 900px;
+    margin: auto;
+    margin-top: 30px;
+    /* padding-top: 59px; */
+    /* transform: translateY(-50px); */
+}
+
+.header.org {
+    font-family: "Moutarde DEMO";
+    /* rgb(216, 214, 214); */
+    background-color:rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 90px;
+    border-radius: 100px;
+    max-width: 900px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 8px;
+    transform: translateY(-10px);
+}
+
+.tabel.org {
+    /* background-color: blue; */
+    font-family: "Coolvetica";
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    padding: 20px;
+    transform: translateY(-60px);
+}
+
+.org-header {
+    font-size: 60px;
+    color: rgb(71, 71, 71);
+    /* background-color: rgb(0, 255, 255); */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    /* padding: 20px; */
+    /* width: 90%; */
+    /* border-radius: 50%; */
+    /* border-width: 50%; */
+}
+
+span {
+    font-size: 45px;
+    color: rgb(71, 71, 71);
+}
+
+/* AKhir Container 7 */
+
+/* Container 8 */
+
+.container8 {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 1600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    /* padding-top: 59px; */
+    /* transform: translateY(-50px); */
+}
+
+img {
+    width: 100px;
+}
+
+.cont.tabel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding: 40px; */
+    /* background-color: rgb(255, 0, 0); */
+    border-spacing: 50px;
+    transform: translateY(-20px);
+    /* padding-right: 50px; */
+    /* padding-left: 20px; */
+    /* border: 2px solid; */
+}
+
+.header.cont {
+    font-family: "Moutarde DEMO";
+    /* rgb(216, 214, 214); */
+    background-color:rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 60px;
+    border-radius: 100px;
+    /* max-width: 500px; */
+    width: 30%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 3px;
+    transform: translateY(50px);
+}
+
+.container9 {
+    /* background-color: brown; */
+    width: 1600px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+    font-family: "Coolvetica";
+    color: rgb(71, 71, 71);
+}
+
+.container10 {
+    width: 1600px;
+    margin: auto;
+    padding: 10px;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
+    transform: translateY(-20px);
+
+    font-family: "Coolvetica";
+    color: rgb(71, 71, 71);
+}
