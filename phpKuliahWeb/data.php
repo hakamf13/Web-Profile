@@ -125,6 +125,13 @@
     </div>
 <!-- End Profiles -->
 <!-- Skills -->
+
+<?=
+    $softs = array(
+        array ("Problem Solver","Logical Thinker","Learner Anthusiast","Creative","Good Speaker (Wish)","Religious","Open Minded")
+    );
+?>
+
     <div class="container6" id="skills">
         <h2 class="header skl">My Skills</h2>
             <div class="sub cont6">
@@ -136,13 +143,13 @@
                         <td class="titik2"></td>
                         <td class="td skl">
                             <ul class="skl-data">
-                                <li><?= $_POST["skl-1"]; ?></li>
-                                <li><?= $_POST["skl-2"]; ?></li>
-                                <li><?= $_POST["skl-3"]; ?></li>
-                                <li><?= $_POST["skl-4"]; ?></li>
-                                <li><?= $_POST["skl-5"]; ?></li>
-                                <li><?= $_POST["skl-6"]; ?></li>
-                                <li><?= $_POST["skl-7"]; ?></li>
+                                <li><?= $softs[0]; ?></li>
+                                <li><?= $softs[1]; ?></li>
+                                <li><?= $softs[2]; ?></li>
+                                <li><?= $softs[3]; ?></li>
+                                <li><?= $softs[4]; ?></li>
+                                <li><?= $softs[5]; ?></li>
+                                <li><?= $softs[6]; ?></li>
                             </ul>
                         </td>
                         <td class="space tabel1">  
